@@ -21,7 +21,7 @@
    Pip3 install mathplotlib
    ```
 
-## EKSEKUSI IMAGES STITCHING
+## Eksekusi Images Stitching
 1. Masuk ke dalam direktori yang berisi kodingan image stitching dan didalamnya terdapat direktori image  yang akan digabungkan
    
    ![image](https://github.com/tsazaah/Images-Stitching/assets/150001965/698326c8-f595-4626-bba1-09161ef10ca9)
@@ -85,7 +85,12 @@ else:
    ```bash
    python3 image_stitching_simple.py --images images/scottsdale --output output.png
    ```
-5. Kemudian akan muncul output berupa gambar yang telah digabungkan.
+   atau dapat menggunakan perintah
+   ```bash
+   python image_stitching.py --images images/scottsdale --output output.jpg \
+	--crop 1
+   ```
+6. Kemudian akan muncul output berupa gambar yang telah digabungkan.
   ![image](https://github.com/tsazaah/Images-Stitching/assets/150001965/6bdb76c5-8307-47bc-ade5-8440d14ac826)
 
   Output:
